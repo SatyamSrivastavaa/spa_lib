@@ -1,0 +1,39 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.page {
+    display: none;
+    width: 100%;
+    min-height: 100%;
+    position: fixed;
+    padding: 1rem 2rem;
+}
+
+.active {
+    display: block;
+}
+
+#home {
+    background-color: hsl(60, 50%, 80%);
+}
+
+#list {
+    background-color: hsl(180, 50%, 80%);
+}
+
+#details {
+    background-color: hsl(240, 50%, 80%);
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    transition: all 0.4s;
+}
+
+.big {
+    font-size: 5rem;
+    font-weight: 900;
+}

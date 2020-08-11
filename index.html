@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>MySPA</title>
+</head>
+<body>
+    <main>
+        <div class="page active" id="home">
+            <h1>Home</h1>
+            <ol>
+                <li><a data-target="home" class="nav-link" href="#">Home</a></li>
+                <li><a data-target="list" class="nav-link" href="#">List</a></li>
+                <li><a data-target="details" class="nav-link" href="#">Details</a></li>
+            </ol>
+        </div>
+
+        <div class="page" id="list">
+            <h1>List</h1>
+            <ol>
+                <li><a data-target="home" class="nav-link" href="#">Home</a></li>
+                <li><a data-target="list" class="nav-link" href="#">List</a></li>
+                <li><a data-target="details" class="nav-link" href="#">Details</a></li>
+            </ol>
+        </div>
+
+        <div class="page" id="details">
+            <h1>Details</h1>
+            <ol>
+                <li><a data-target="home" class="nav-link" href="#">Home</a></li>
+                <li><a data-target="list" class="nav-link" href="#">List</a></li>
+                <li><a data-target="details" class="nav-link" href="#">Details</a></li>
+            </ol>
+        </div>
+    </main>
+    <script src="scripts/main.js" type="module"></script>
+</body>
+</html>
